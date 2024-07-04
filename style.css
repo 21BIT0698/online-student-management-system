@@ -1,0 +1,128 @@
+*
+{
+    padding:0;
+    margin:0;
+
+}
+
+nav{
+    position:fixed;
+    background-color: skyblue;
+    height:70px;
+    width:100%;
+    
+
+}
+.logo{
+    font-size: 25px;
+    position:relative;
+    left:5%;
+    font-weight:bold;
+    color:white;
+    line-height: 70px;
+}
+ul{
+    
+    float:right;
+    margin-right: 20px;
+}
+ul li{
+    display:inline-block;
+    line-height: 70px;
+    margin:0 5px;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+.main-image {
+   width:200%;
+   height:400px;
+   padding-left: 20%;
+   padding-top: 20%;
+   align-items: center;
+   justify-items:center;
+
+}
+.section1{
+    padding-top:80px;
+}
+.img_text{
+    position:absolute;
+    top:20%;
+    left:30%;
+    background-color:midnightblue;
+    padding-right:50px;
+    padding-left:50px;
+    color:white;
+
+    
+
+
+}
+
+
+.welcome{
+
+    width:100%;
+   
+    padding-top: 20%;
+   
+
+}
+.come{
+    height:400px;
+    margin-top:30%;
+    margin-right: 20%;
+    margin-top: 30%;
+}
+.container{
+    padding-top: 20px;
+    
+}
+.label_txt{
+    width:100px;
+    text-align:right;
+    padding-right: 10px;
+    display: inline-block;
+   
+
+}
+.input_deg{
+    width:30%;
+    height:40px;
+    border-radius: 25px;
+    border-color: black;
+
+}
+.adm_in{
+    padding-top:10px
+}
+.inp_txt{
+    width:30%;
+    height:70px;
+    border-radius: 25px;
+    border-color: black;
+
+
+}
+#sumbit{
+    position:relative;
+    width:70px;
+    left:5%;
+}
+
+footer {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+ .footer_txt {
+            color: white;
+            text-align: center;
+        }

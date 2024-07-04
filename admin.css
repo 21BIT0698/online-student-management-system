@@ -1,0 +1,50 @@
+.header{
+
+    background-color: aqua;
+
+    line-height: 70px;
+    padding-left: 30px;
+}
+*{
+
+    margin:0;
+    padding:0;
+}
+.admin{
+    text-decoration: none;
+}
+
+.logout{
+    float: right;
+    font-weight: bold;
+    font-size:150%;
+
+    padding-right: 30px;
+
+}
+ul{
+    background-color: #424a5b;
+    width:18%;
+    height:100%;
+    position: fixed;
+    padding-top:5%;
+    text-align: center;
+}
+ul li{
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+ul li a{
+    color:white;
+    font-weight:bold;
+
+    text-decoration: none;
+
+}
+ul li a:hover{
+    color:skyblue;
+}
+.content{
+    color:aqua;
+}
